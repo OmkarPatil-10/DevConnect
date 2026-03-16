@@ -106,7 +106,7 @@ function Register() {
                     minLength: { value: 2, message: 'Username must be at least 2 characters' }
                   })}
                   className="w-full dark:bg-black/50 bg-gray-100/80 dark:text-white text-gray-900 pl-10 pr-4 py-4 rounded-xl border dark:border-[#2563EB]/20 border-[#93C5FD]/30 focus:outline-none focus:border-[#60A5FA] focus:ring-1 focus:ring-[#60A5FA] dark:placeholder-gray-600 placeholder-gray-400 transition-all duration-300"
-                  placeholder="Full Name"
+                  placeholder="Username"
                 />
                 {errors.username && (
                   <p className="text-red-500 text-sm mt-1 ml-1">{errors.username.message}</p>
