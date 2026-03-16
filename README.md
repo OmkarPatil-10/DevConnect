@@ -1,6 +1,8 @@
 # 🚀 DevConnect - Developer Collaboration Platform
 
-<div align="center">
+
+Live Demo: [click here](https://devconnect-10.vercel.app/)
+---
 
 **DevConnect is a full-stack collaboration platform that helps developers find teammates, join sprint-based projects, manage tasks, and communicate in real-time with AI-powered matching.**
 

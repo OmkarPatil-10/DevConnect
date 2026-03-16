@@ -150,9 +150,9 @@ const LandingPage = () => {
             <div className="flex items-center gap-2">
               <span className="font-bold text-xl dark:text-white text-gray-900">DevConnect</span>
             </div>
-            <p className="text-sm dark:text-gray-500 text-gray-500">© 2025 DevConnect Platform. All rights reserved.</p>
+            <p className="text-sm dark:text-gray-500 text-gray-500">© 2026 DevConnect Platform. All rights reserved.</p>
             <div className="flex gap-6">
-              <Link to="https://github.com/OmkarPatil-10/" className="dark:text-gray-500 text-gray-400 hover:text-[#60A5FA] transition-colors"><Github className="h-6 w-6" /></Link>
+              <Link to="https://github.com/OmkarPatil-10/DevConnect" className="dark:text-gray-500 text-gray-400 hover:text-[#60A5FA] transition-colors"><Github className="h-6 w-6" /></Link>
               <Link to="https://www.linkedin.com/in/omkar10patil/" className="dark:text-gray-500 text-gray-400 hover:text-[#60A5FA] transition-colors"><Linkedin className="h-6 w-6" /></Link>
             </div>
           </div>
