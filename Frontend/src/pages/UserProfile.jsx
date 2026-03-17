@@ -83,7 +83,7 @@ function UserProfile() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="dark:bg-black/80 bg-white/80 border-b-2 border-[#60A5FA] p-3 sm:p-4 sticky top-0 z-50">
+      <header className=" dark:bg-black/80 bg-white/80 backdrop-blur-md border-b border-[#2563EB]/20 p-3 sm:p-4 top-0 left-0 right-0  sticky z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <span className="bg-gradient-to-r from-[#2563EB] via-[#60A5FA] to-[#3B82F6] bg-clip-text text-transparent text-3xl font-bold drop-shadow-[0_2px_8px_rgba(37,99,235,0.25)] animate-gradient-x select-none">

@@ -61,7 +61,7 @@ const Navbar = ({ sidebarOpen, setSidebarOpen, userData }) => {
             ))}
           </nav>
 
-          <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#2563EB] rounded-full overflow-hidden flex items-center justify-center ring-2 ring-[#2563EB]/30">
+          <div className="hidden sm:inline-block w-8 h-8 sm:w-10 sm:h-10 bg-[#2563EB] rounded-full overflow-hidden flex items-center justify-center ring-2 ring-[#2563EB]/30">
             {userData?.profilePicture && userData.profilePicture !== 'data:image/jpeg;base64' ? (
               <img
                 src={userData.profilePicture.startsWith('data:') ? userData.profilePicture : `data:image/jpeg;base64,${userData.profilePicture}`}
@@ -76,7 +76,7 @@ const Navbar = ({ sidebarOpen, setSidebarOpen, userData }) => {
         </div>
 
         {/* Mobile Icon Buttons - Network and Chat (Visible on Mobile) */}
-        <div className="flex items-center gap-2 md:hidden absolute right-16 sm:right-20 top-1/2 -translate-y-1/2">
+        <div className="flex items-center gap-2 md:hidden absolute right-1 top-1/2 -translate-y-1/2">
           {/* Network Icon */}
           <Link
             to="/network"

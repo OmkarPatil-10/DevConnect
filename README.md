@@ -227,8 +227,5 @@ AI matching is built using Gemini embeddings:
 
 ---
 
-## 📄 License
-
-This project does not currently include a license. Add one (e.g., MIT) if you plan to open-source it.
 
 

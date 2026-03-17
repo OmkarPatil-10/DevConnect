@@ -27,14 +27,14 @@ const LandingNavbar = () => {
             </Link>
             <Link
               to="/auth/register"
-              className="bg-gradient-to-r from-[#2563EB] to-[#3B82F6] hover:from-[#3B82F6] hover:to-[#2563EB] text-white px-6 py-2.5 rounded-full text-base font-bold transition-all shadow-[0_0_15px_rgba(37,99,235,0.5)] hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]"
+              className="hidden sm:inline-block bg-gradient-to-r from-[#2563EB] to-[#3B82F6] hover:from-[#3B82F6] hover:to-[#2563EB] text-white px-3 py-1 rounded-full text-base font-bold transition-all shadow-[0_0_15px_rgba(37,99,235,0.5)] hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]"
             >
               Get Started
             </Link>
             {/* Theme Toggle Button */}
             <button
               onClick={toggleTheme}
-              className="relative p-2 rounded-full border border-[#60A5FA]/30 hover:border-[#60A5FA]/60 transition-all duration-300 hover:shadow-[0_0_12px_rgba(96,165,250,0.3)] group"
+              className=" relative p-2 rounded-full border border-[#60A5FA]/30 hover:border-[#60A5FA]/60 transition-all duration-300 hover:shadow-[0_0_12px_rgba(96,165,250,0.3)] group"
               aria-label="Toggle theme"
             >
               {/* Sun Icon (shown in dark mode, click to go light) */}
